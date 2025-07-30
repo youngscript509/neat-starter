@@ -26,5 +26,20 @@
   "dependencies": {
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.5"
-  }
+  },
+  "name": "neat-starter",
+  "version": "1.0.0",
+  "description": "Starter Template for **N**etlify CMS, **E**leventy, **A**lpine JS & **T**ailwind CSS",
+  "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngscript509/neat-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngscript509/neat-starter/issues"
+  },
+  "homepage": "https://github.com/youngscript509/neat-starter#readme"
 }
