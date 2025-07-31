@@ -11,10 +11,96 @@
       <meta name="description" content="{{description}}"/>
     {% endif %}
     {% block head %}{% endblock %}
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static//css/style.css"/>
     {% if prism == true %}
-      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
+      <link rel="stylesheet" type="text/css" href="/static//css/prism-tomorrow.css">
     {% endif %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="FestivalCinecolo v1.0, https://festivalcinecolo.org">
+    <link rel="canonical" href="https://festivalcinecolo.org">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:src" content="https://festivalcinecolo.org/assets/images/cnecolo.jpg">
+    <meta property="og:image" content="https://festivalcinecolo.org/assets/images/cnecolo.jpg">
+    <meta name="twitter:title" content="Home">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <meta name="description" content="CINECOLO-HAITI Le festival international du film de l'environnement">
+    
+    <meta property="og:title" content="CINECOLO-HAITI">
+    <meta property="og:description" content="CINECOLO-HAITI Le festival international du film de l'environnement">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://festivalcinecolo.org">
+    <meta property="og:image" content="https://festivalcinecolo.org/assets/images/cnecolo.jpg">
+    <meta property="og:locale" content="fr_FR">
+    
+    <title>CINECOLO-HAITI</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="/css/animate.css">
+    <!-- magnific -->
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <!-- carousel -->
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <!-- isotop -->
+    <link rel="stylesheet" href="/css/isotop.css">
+    <!-- ico fonts -->
+    <link rel="stylesheet" href="/css/xsIcon.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    
+    
+    <link rel="stylesheet" href="/assets/socicon.css">
+    <link rel="stylesheet" href="/assets/theme.css">
+    
+    <link rel="preload"
+      href="https://fonts.googleapis.com/css?family=League+Spartan:100,200,300,400,500,600,700,800,900&display=swap"
+      as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=League+Spartan:100,200,300,400,500,600,700,800,900&display=swap">
+    </noscript>
+    <link rel="preload" as="style" href="additional.css">
+    <link rel="stylesheet" href="/additional.css" type="text/css">
+    <style>
+      .title-shap-img {
+        width: 200px;
+        height: 100px;
+      }
+    </style>
+    
+    <style>
+      .jumping-dance {
+        animation: jumping 0.5s alternate;
+        /* Animation CSS pour l'effet jumping dance */
+        animation-iteration-count: 2;
+        /* L'animation ne se répète qu'une seule fois */
+      }
+    
+    
+      @keyframes jumping {
+        0% {
+          transform: translateY(0);
+        }
+    
+        100% {
+          transform: translateY(-20px);
+        }
+    
+        /* Ajustez la distance du saut ici */
+      }
+    
+      #displaytext {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     {% include "./partials/navbar.html" %}
