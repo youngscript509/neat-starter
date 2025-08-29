@@ -32,7 +32,7 @@ collections:
         options: ["Tags", "created", "from", "config.yml"]
   - label: "Editions"
     name: "editions"
-    folder: "src/editions"
+    folder: "src/articles/editions"
     create: true
     editor:
       preview: false
@@ -51,7 +51,7 @@ collections:
         options: ["Tags", "created", "from", "config.yml"]
   - label: "Festival"
     name: "festival"
-    folder: "src/festival"
+    folder: "src/articles/festival"
     create: true
     editor:
       preview: false
@@ -70,7 +70,7 @@ collections:
         options: ["Tags", "created", "from", "config.yml"]
   - label: "Annonces"
     name: "annonces"
-    folder: "src/annonces"
+    folder: "src/articles/annonces"
     create: true
     editor:
       preview: false
