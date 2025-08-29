@@ -1,10 +1,9 @@
----
 items:
-  - text: Menu One
+  - text: LE FESTIVAL
     url: "#"
-  - text: Menu Two
+  - text: LES EDITIONS
     url: "#"
-  - text: Menu Three
+  - text: LES INVITES
     url: "#"
-  - text: Blog
-    url: "/blog"
+  - text: ACTUALITES
+    url: /blog
